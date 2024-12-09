@@ -12,11 +12,18 @@ mjml
         mj-attributes
             mj-all(font-family='Arial, Helvetica, sans-serif')/
             //-Police Font
-            mj-class(name='0T' font-size="16px" line-height="20px" font-weight="400")/
-            mj-class(name='-1T' font-size="12px" line-height="16px" font-weight="400")/
-            mj-class(name='-2T' font-size="10px" line-height="14px" font-weight="400")/
+            mj-class(name='+2T' font-family='"kari-display-pro", sans-serif' font-size='65px' line-height="69px" font-weight="400" font-style='normal')
+            mj-class(name='+1T' font-family='"Outfit", serif' font-style='normal')
+            mj-class(name='0T' font-size="16px" line-height="20px" font-weight="400" font-style="normal")/
+            mj-class(name='-1T' font-size="12px" line-height="16px" font-weight="400" font-style="normal")/
+            mj-class(name='-2T' font-size="10px" line-height="14px" font-weight="400" font-style="normal")/
             //-color
             mj-class(name="cR" color="#c1272d")
+            mj-class(name="cT0" color="#333333")
+        mj-style. 
+            @import url("https://use.typekit.net/saz8jys.css");
+            @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
         mj-breakpoint(width='480px')
     //- Body
     mj-body(background-color='#fcfcfc')
