@@ -1,0 +1,68 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>Lettre Assurance Étudiant Octobre 2024</mj-title>
+    <mj-raw>
+      <meta name='color-scheme' content='light'/>
+      <meta name='supported-color-schemes' content='light'/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+    </mj-raw>
+    <mj-attributes>
+      <mj-all font-family="Arial, Helvetica, sans-serif"/>
+    </mj-attributes>
+    <mj-breakpoint width="480px"></mj-breakpoint>
+  </mj-head>
+  <mj-body background-color="#fcfcfc">
+    <mj-section>
+      <mj-column>
+        <mj-image></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Jeu Concours</mj-text>
+        <mj-text>Photo de Noel</mj-text>
+        <mj-text>2024<img src="" alt=""/></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Jeu concours : une PHOTO DE N0ËL pour faire de ton animal favori le roi de la fête !!!</mj-text>
+        <mj-text>A déposer sous le sapin pour amuser mamy, divertir les copains... mais surtout gagner le jeu concours organisé par SUPVETO.</mj-text>
+        <mj-text>Quelques consignes à respecter cependant : le choix d'un déguisement festif, ta présence ou pas sur le cliché, de l'inventivité en veux-tu en voilà et, plus que tout, de l'humour, encore de l'humour et toujours de l'humour.</mj-text>
+        <mj-text>Mais attention le « vénérable vieillard » chargé de distribuer les cadeaux et de sélectionner la meilleure photo n'apprécierait pas que tu ne respectes pas ton petit compagnon... et nous non plus à SUPVETO.</mj-text>
+        <mj-text>Alors PHILIPPE dans le respect des valeurs de notre formation, active ton imagination, réalise la « photo de l'année » et envoie-la par mail (1 photo par candidat) à :</mj-text>
+        <mj-text>concours.national.noel@supveto.com avec ton nom, prénom et l'école dont tu dépends (obligatoire).</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image></mj-image>
+        <mj-text>17 rue des Ursulines</mj-text>
+        <mj-text>59200 tourcoing</mj-text>
+        <mj-text>0320700606</mj-text>
+        <mj-text>contact@supveto.com</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="20%" vertical-align="bottom">
+        <mj-image padding="0" border="none" width="300px" src="https://i.ibb.co/hC6yb0F/pere-Noelchien1.png" alt="chien habillé en père Noël distribuant des cadeaux"></mj-image>
+      </mj-column>
+      <mj-column width="20%" vertical-align="bottom">
+        <mj-image padding="0" border="none" width="300px" src="https://i.ibb.co/bvJXFBD/pere-Noelchat2.png" alt="chat habillé en père Noël"></mj-image>
+      </mj-column>
+      <mj-column width="20%" vertical-align="bottom">
+        <mj-image padding="0" border="none" width="300px" src="https://i.ibb.co/8s2rNcx/Plan-de-travail-3chien3.png" alt="chien habillé en père Noël entrain de confectionner un bonhomme de neige"></mj-image>
+      </mj-column>
+      <mj-column width="20%" vertical-align="bottom">
+        <mj-image padding="0" border="none" width="300px" src="https://i.ibb.co/b2gpvcc/pere-Noelchat4.png" alt="chat habillé en père Noël souhaitant la  bienvenue"></mj-image>
+      </mj-column>
+      <mj-column width="20%" vertical-align="bottom">
+        <mj-image padding="0" border="none" width="300px" src="https://i.ibb.co/qDVcM9f/pere-Noelchien5.png" alt="chien habillé en père Noël apportant des cadeaux"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
