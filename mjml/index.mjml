@@ -49,6 +49,15 @@
         <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="-1T">contact@supveto.com</mj-text>
       </mj-column>
     </mj-section>
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-image></mj-image>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="-1T">17 rue des Ursulines</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="-1T">59200 tourcoing</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="-1T">0320700606</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="-1T">contact@supveto.com</mj-text>
+      </mj-column>
+    </mj-section>
     <mj-section background-color="#ffffff">
       <mj-column width="20%" vertical-align="bottom">
         <mj-image padding="0" border="none" width="300px" src="https://i.ibb.co/hC6yb0F/pere-Noelchien1.png" alt="chien habillé en père Noël distribuant des cadeaux"></mj-image>
