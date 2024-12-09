@@ -25,6 +25,16 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="0 20px">
       <mj-column>
+        <mj-text align="center" padding-top="0" padding-bottom="0" text-transform="uppercase">cartes cadeaux</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" text-transform="uppercase">à gagner</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" padding-top="0" padding-bottom="0" text-transform="uppercase">à envoyer</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" text-transform="uppercase">avant le 05 janvier</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0 20px">
+      <mj-column>
         <mj-text align="center" padding-top="0">Jeu Concours</mj-text>
         <mj-text align="center">Photo de Noel</mj-text>
         <mj-text align="center">2024<img src="" alt=""/></mj-text>
