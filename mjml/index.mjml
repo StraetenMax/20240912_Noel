@@ -28,7 +28,7 @@
   <mj-body background-color="#f2f2f2">
     <mj-section background-color="#ffffff" padding="0">
       <mj-column>
-        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/ZWbb3Np/frontpage.png" alt="chat et chien habillés en père Noël sur fond vert d'étoiles des neiges"></mj-image>
+        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/sJktsTd/front2024.png" alt="chat et chien habillés en père Noël sur fond vert d'étoiles des neiges"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0 20px">
@@ -50,19 +50,19 @@
       <mj-column>
         <mj-text align="center" padding="0" font-size="26px" line-height="30px" font-weight="600" mj-class="+1T cR" text-transform="uppercase">Jeu Concours</mj-text>
         <mj-text align="center" vertical-align="bottom" padding="0" mj-class="+2T cR">Photo de Noël</mj-text>
-        <mj-social padding="0" icon-size="30px" mode="horizontal" mj-class="+1T cR" font-size="25px" line-height="25px" font-weight="700" inner-padding="4px">
-          <mj-social-element padding="0" src="https://i.ibb.co/0KWZm40/let-Emailling-04.jpg">2024</mj-social-element>
+        <mj-social padding="0" icon-size="30px" mode="horizontal" mj-class="+1T cR" font-size="25px" line-height="25px" font-weight="700">
+          <mj-social-element padding="5px" src="https://i.ibb.co/0KWZm40/let-Emailling-04.jpg">2024</mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px">
-      <mj-column>
-        <mj-text mj-class="0T cT0"><span style="color:#0d0d0d;font-weight:700;">Jeu concours</span> : une <span style="color:#c1272d;font-weight:700;">PHOTO DE NOËL</span> pour faire de ton animal favori le roi de la fête !!!</mj-text>
-        <mj-text mj-class="0T cT0">A déposer sous le sapin pour amuser mamy, divertir les copains... mais surtout gagner le <span style="color:#0d0d0d;font-weight:700;">jeu concours</span> organisé par <span style="color:#0d0d0d;font-weight:700;">SupVéto</span>.</mj-text>
-        <mj-text mj-class="0T cT0">Quelques consignes à respecter cependant : le choix d'un <span style="color:#0d0d0d;font-weight:700;">déguisement festif</span>, ta présence ou pas sur le cliché, de l'<span style="color:#0d0d0d;font-weight:700;">inventivité</span> en veux-tu en voilà et, plus que tout, de l'<span style="color:#0d0d0d;font-weight:700;">humour</span>, encore de l'<span style="color:#0d0d0d;font-weight:700;">humour</span> et toujours de l'<span style="color:#0d0d0d;font-weight:700;">humour</span>.</mj-text>
-        <mj-text mj-class="0T cT0">Mais attention le « vénérable vieillard » chargé de distribuer les cadeaux et de sélectionner la meilleure photo n'apprécierait pas que tu ne respectes pas ton petit compagnon... et nous non plus à <span style="color:#0d0d0d;font-weight:700;">SupVéto</span>.</mj-text>
-        <mj-text padding-bottom="0" mj-class="0T cT0">Alors {{contact.PRENOM}} dans le respect des valeurs de notre formation, active ton imagination, réalise la <span style="color:#0d0d0d;font-weight:700;">photo de l'année</span> et envoie-la par mail (1 photo par candidat) à :</mj-text>
-        <mj-text padding-top="0" mj-class="0T"><a href="mailto:concours.national.noel@supveto.com" style="color:#c1272d;font-weight:700">concours.national.noel@supveto.com</a> avec ton nom, prénom et l'école dont tu dépends (obligatoire).</mj-text>
+      <mj-column width="80%">
+        <mj-text padding="5px 0" mj-class="0T cT0"><span style="color:#0d0d0d;font-weight:700;">Jeu concours</span> : une <span style="color:#c1272d;font-weight:700;">PHOTO DE NOËL</span> pour faire de ton animal favori le roi de la fête !!!</mj-text>
+        <mj-text padding="5px 0" mj-class="0T cT0">A déposer sous le sapin pour amuser mamy, divertir les copains... mais surtout gagner le <span style="color:#0d0d0d;font-weight:700;">jeu concours</span> organisé par <span style="color:#0d0d0d;font-weight:700;">SupVéto</span>.</mj-text>
+        <mj-text padding="5px 0" mj-class="0T cT0">Quelques consignes à respecter cependant : le choix d'un <span style="color:#0d0d0d;font-weight:700;">déguisement festif</span>, ta présence ou pas sur le cliché, de l'<span style="color:#0d0d0d;font-weight:700;">inventivité</span> en veux-tu en voilà et, plus que tout, de l'<span style="color:#0d0d0d;font-weight:700;">humour</span>, encore de l'<span style="color:#0d0d0d;font-weight:700;">humour</span> et toujours de l'<span style="color:#0d0d0d;font-weight:700;">humour</span>.</mj-text>
+        <mj-text padding="5px 0" mj-class="0T cT0">Mais attention le « vénérable vieillard » chargé de distribuer les cadeaux et de sélectionner la meilleure photo n'apprécierait pas que tu ne respectes pas ton petit compagnon... et nous non plus à <span style="color:#0d0d0d;font-weight:700;">SupVéto</span>.</mj-text>
+        <mj-text padding="0 0 5px 0" mj-class="0T cT0">Alors <span style="color:#0d0d0d;font-weight:700">{{contact.PRENOM}}</span> dans le respect des valeurs de notre formation, active ton imagination, réalise la <span style="color:#0d0d0d;font-weight:700;">photo de l'année</span> et envoie-la par mail (1 photo par candidat) à :</mj-text>
+        <mj-text padding="0" mj-class="0T"><a href="mailto:concours.national.noel@supveto.com" style="color:#c1272d;font-weight:700">concours.national.noel@supveto.com</a> avec ton nom, prénom et l'école dont tu dépends (obligatoire).</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px">
