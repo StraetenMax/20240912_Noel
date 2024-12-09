@@ -1,13 +1,13 @@
 extends templates/_layout
 block content
-    mj-section
+    mj-section(background-color="#ffffff" padding="0")
         mj-column
-            mj-image
-    mj-section
+            mj-image(padding="0" border="none" width="600px" src="https://i.ibb.co/ZWbb3Np/frontpage.png" alt="chat et chien habillés en père Noël sur fond vert d'étoiles des neiges")
+    mj-section(background-color="#ffffff" padding="0 20px")
         mj-column
-            mj-text Jeu Concours
-            mj-text Photo de Noel
-            mj-text 2024
+            mj-text(align="center" padding-top="0") Jeu Concours
+            mj-text(align="center") Photo de Noel
+            mj-text(align="center") 2024
                 img(src="", alt="")
     mj-section(background-color="#ffffff" padding="20px")
         mj-column
@@ -15,13 +15,5 @@ block content
             mj-text(mj-class="0T") A déposer sous le sapin pour amuser mamy, divertir les copains... mais surtout gagner le jeu concours organisé par SUPVETO.
             mj-text(mj-class="0T") Quelques consignes à respecter cependant : le choix d'un déguisement festif, ta présence ou pas sur le cliché, de l'inventivité en veux-tu en voilà et, plus que tout, de l'humour, encore de l'humour et toujours de l'humour.
             mj-text(mj-class="0T") Mais attention le « vénérable vieillard » chargé de distribuer les cadeaux et de sélectionner la meilleure photo n'apprécierait pas que tu ne respectes pas ton petit compagnon... et nous non plus à SUPVETO.
-            mj-text(mj-class="0T") Alors PHILIPPE dans le respect des valeurs de notre formation, active ton imagination, réalise la « photo de l'année » et envoie-la par mail (1 photo par candidat) à :
-            mj-text(mj-class="0T") concours.national.noel@supveto.com avec ton nom, prénom et l'école dont tu dépends (obligatoire).
-    mj-section(background-color="#ffffff" padding="20px")
-        mj-column
-            mj-image
-            mj-text(align="center" padding-top="0" padding-bottom="0" mj-class="-1T") 17 rue des Ursulines
-            mj-text(align="center" padding-top="0" padding-bottom="0" mj-class="-1T") 59200 tourcoing
-            mj-text(align="center" padding-top="0" padding-bottom="0" mj-class="-1T") 0320700606
-            mj-text(align="center" padding-top="0" padding-bottom="0" mj-class="-1T") contact@supveto.com
-    
+            mj-text(padding-bottom="0" mj-class="0T") Alors PHILIPPE dans le respect des valeurs de notre formation, active ton imagination, réalise la « photo de l'année » et envoie-la par mail (1 photo par candidat) à :
+            mj-text(padding-top="0" mj-class="0T") concours.national.noel@supveto.com avec ton nom, prénom et l'école dont tu dépends (obligatoire).
