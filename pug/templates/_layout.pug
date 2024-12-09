@@ -11,8 +11,12 @@ mjml
             <meta name="format-detection" content="email=no"/>
         mj-attributes
             mj-all(font-family='Arial, Helvetica, sans-serif')/
+            //-Police Font
             mj-class(name='0T' font-size="16px" line-height="20px" font-weight="400")/
             mj-class(name='-1T' font-size="12px" line-height="16px" font-weight="400")/
+            mj-class(name='-2T' font-size="10px" line-height="14px" font-weight="400")/
+            //-color
+            mj-class(name="cR" color="#c1272d")
         mj-breakpoint(width='480px')
     //- Body
     mj-body(background-color='#fcfcfc')
@@ -30,21 +34,9 @@ mjml
         //- Dossier
             block article_1
             include ../includes/_article1
-        //- Article_1
-            block article_2
-            include ../includes/_article2
-        //- SMA
-            block sma
-            include ../includes/_sma
-        //- BNI
-            block bni
-            include ../includes/_bni
-        //- Agenda BNI
-            block agendabni
-            include ../includes/_agendabni
-        //- Agenda
-            block agenda
-            include ../includes/_agenda
-        //- partenaires
-            block partenaires
-            include ../includes/_partenaires
+        mj-section
+            mj-column
+                mj-text(align="center" padding-top="0" padding-bottom="0" mj-class="-2T") Si tu ne parviens pas à lire cet e-mail, clique ici
+                mj-text(align="center" padding-top="0" padding-bottom="0" mj-class="-2T") Cet email a été envoyé à {{contact.EMAIL}}, tu l'as reçu car tu suis la formation SUPVETO.
+                mj-text(align="center" padding-top="0" padding-bottom="0" mj-class="-2T") Se désinscrire
+                mj-text(align="center" mj-class="-2T") ©2024 supveto

@@ -14,6 +14,8 @@
       <mj-all font-family="Arial, Helvetica, sans-serif"/>
       <mj-class name="0T" font-size="16px" line-height="20px" font-weight="400"/>
       <mj-class name="-1T" font-size="12px" line-height="16px" font-weight="400"/>
+      <mj-class name="-2T" font-size="10px" line-height="14px" font-weight="400"/>
+      <mj-class name="cR" color="#c1272d"></mj-class>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
@@ -25,12 +27,12 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="0 20px">
       <mj-column>
-        <mj-text align="center" padding-top="0" padding-bottom="0" text-transform="uppercase">cartes cadeaux</mj-text>
-        <mj-text align="center" padding-top="0" padding-bottom="0" text-transform="uppercase">à gagner</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="cR" text-transform="uppercase">cartes cadeaux</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="cR" text-transform="uppercase">à gagner</mj-text>
       </mj-column>
       <mj-column>
-        <mj-text align="center" padding-top="0" padding-bottom="0" text-transform="uppercase">à envoyer</mj-text>
-        <mj-text align="center" padding-top="0" padding-bottom="0" text-transform="uppercase">avant le 05 janvier</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="cR" text-transform="uppercase">à envoyer</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="cR" text-transform="uppercase">avant le 05 janvier</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0 20px">
@@ -78,6 +80,14 @@
       </mj-column>
       <mj-column width="20%" vertical-align="bottom">
         <mj-image padding="0" border="none" width="300px" src="https://i.ibb.co/qDVcM9f/pere-Noelchien5.png" alt="chien habillé en père Noël apportant des cadeaux"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="-2T">Si tu ne parviens pas à lire cet e-mail, clique ici</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="-2T">Cet email a été envoyé à {{contact.EMAIL}}, tu l'as reçu car tu suis la formation SUPVETO.</mj-text>
+        <mj-text align="center" padding-top="0" padding-bottom="0" mj-class="-2T">Se désinscrire</mj-text>
+        <mj-text align="center" mj-class="-2T">©2024 supveto</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
